@@ -1,5 +1,5 @@
 # Task_submission
-Task submission for jatayu nlp engineer position
+Task submission for Jatayu nlp engineer position
 # Installing files
  - Install using "pip install -r requirements.txt"
 # Dataset
@@ -12,5 +12,8 @@ Task submission for jatayu nlp engineer position
  - Model training is showed in "Muril_training.ipynb"
  
 # How to run
+ ## Important 
+  - Download muril file from [https://tfhub.dev/google/MuRIL/1] this link for running offline.
+  - Else run normally
  To run type this in command console
   - uvicorn app:app --reload
