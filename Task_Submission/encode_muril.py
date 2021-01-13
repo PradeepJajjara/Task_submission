@@ -38,7 +38,7 @@ def get_model_data(ml,mode = 'Online'):
     return (muril_model, muril_layer)
 
 
-muril_model, muril_layer = get_model_data(max_seq_length,mode = 'offline')
+muril_model, muril_layer = get_model_data(max_seq_length)
 
 
 vocab_file = muril_layer.resolved_object.vocab_file.asset_path.numpy()
